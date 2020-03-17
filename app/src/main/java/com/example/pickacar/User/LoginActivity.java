@@ -1,14 +1,16 @@
-package com.example.pickacar;
+package com.example.pickacar.User;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Profile extends AppCompatActivity {
+import com.example.pickacar.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_login);
     }
 }
