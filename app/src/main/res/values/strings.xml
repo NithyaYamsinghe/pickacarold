@@ -38,5 +38,10 @@
     <string name="skip_btn">Skip</string>
     <string name="next_btn">Next</string>
     <string name="let_get_started_btn">Lets get started</string>
+    <string name="txtV1">One Time Payment</string>
+    <string name="txtE1">Name On Card</string>
+    <string name="txtE2">Card Number</string>
+    <string name="txtE3">Exp Date</string>
+    <string name="txt4">CCV</string>
 </resources>
 

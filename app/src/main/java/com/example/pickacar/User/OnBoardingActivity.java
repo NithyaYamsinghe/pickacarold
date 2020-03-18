@@ -53,7 +53,7 @@ public class OnBoardingActivity extends AppCompatActivity {
 
     // Function for skip button
     public void skipButton(View view) {
-        startActivity(new Intent(this, RegisterActivity.class));
+        startActivity(new Intent(this, Payment.class));
         finish();
 
 
