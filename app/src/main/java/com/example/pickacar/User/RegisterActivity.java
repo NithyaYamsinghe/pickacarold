@@ -1,14 +1,16 @@
-package com.example.pickacar;
+package com.example.pickacar.User;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SignUp extends AppCompatActivity {
+import com.example.pickacar.R;
+
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_register);
     }
 }
