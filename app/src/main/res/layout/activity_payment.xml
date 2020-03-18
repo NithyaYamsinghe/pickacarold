@@ -110,22 +110,156 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <TableLayout
+        android:id="@+id/trip"
+        android:layout_width="274dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
+
+        <TableRow android:id="@+id/location_row">
+
+            <TextView
+                android:id="@+id/location_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV2"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV3"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:id="@+id/destination_row" >
+
+            <TextView
+                android:id="@+id/destination_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV4"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/destination_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV5"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/passengers_row">
+
+            <TextView
+                android:id="@+id/passengers_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV6"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/passengers_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV7"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/length_row">>
+
+            <TextView
+                android:id="@+id/length_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV8"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/length_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV9"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/amount_row">>
+
+            <TextView
+                android:id="@+id/amount_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV10"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/amount_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV11"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/pay_now"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/custom_border"
-        android:padding="30dp"
-        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:text="@string/btn1"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73"></LinearLayout>
+        app:layout_constraintVertical_bias="0.953" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

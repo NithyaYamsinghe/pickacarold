@@ -43,5 +43,18 @@
     <string name="txtE2">Card Number</string>
     <string name="txtE3">Exp Date</string>
     <string name="txt4">CCV</string>
+    <string name="txtV2">Location : </string>
+    <string name="txtV3">Malabe</string>
+    <string name="txtV4">Destination : </string>
+    <string name="txtV5">Kandy</string>
+    <string name="txtV6">Passengers : </string>
+    <string name="txtV7">2</string>
+    <string name="txtV8">Length : </string>
+    <string name="txtV9">23 km</string>
+    <string name="txtV10">Amount : </string>
+    <string name="txtV11">Rs: 1500</string>
+    <string name="btn1">Pay Now</string>
+
+
 </resources>
 
