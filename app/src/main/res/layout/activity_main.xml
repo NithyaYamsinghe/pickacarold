@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/whitney_bold"
             android:textSize="30dp"
-            android:textColor="@color/colorTint"
+            android:textColor="@color/colorWiteText"
             android:textAlignment="center"
             android:clickable="true"
             android:text="Pick A Car" />
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/whitney_regular"
             android:textSize="20dp"
-            android:textColor="@color/colorTint"
+            android:textColor="@color/colorWiteText"
             android:textAlignment="center"
             android:clickable="true"
             android:text="Log in to your account" />
@@ -76,7 +76,7 @@
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
@@ -90,11 +90,12 @@
             android:id="@+id/signup_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/whitney_regular"
             android:layout_marginTop="10dp"
-            android:textColor="@color/colorTint"
-            android:textAlignment="center"
             android:clickable="true"
-            android:text="Haven't got an accont yet? Sign up" />
+            android:fontFamily="@font/whitney_regular"
+            android:onClick="showDashboard"
+            android:text="Haven't got an accont yet? Sign up"
+            android:textAlignment="center"
+            android:textColor="@color/colorWiteText" />
     </LinearLayout>
 </RelativeLayout>
