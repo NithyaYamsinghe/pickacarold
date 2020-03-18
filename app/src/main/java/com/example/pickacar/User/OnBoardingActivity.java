@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.example.pickacar.HelperClasses.SliderAdapter;
 import com.example.pickacar.R;
+import com.example.pickacar.Trip;
 
 
 public class OnBoardingActivity extends AppCompatActivity {
@@ -53,7 +54,7 @@ public class OnBoardingActivity extends AppCompatActivity {
 
     // Function for skip button
     public void skipButton(View view) {
-        startActivity(new Intent(this, Payment.class));
+        startActivity(new Intent(this, Trip.class));
         finish();
 
 

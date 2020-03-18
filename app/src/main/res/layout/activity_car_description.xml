@@ -40,13 +40,12 @@
                 android:id="@+id/d_brand_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mazda Z"
-                android:textSize="15dp"
-                android:textColor="@color/colorText"
                 android:fontFamily="@font/whitney_bold"
+                android:text="Mazda Z"
+                android:textColor="@color/colorText"
+                android:textSize="15dp"
                 tools:layout_editor_absoluteX="18dp"
-                tools:layout_editor_absoluteY="254dp"
-                />
+                tools:layout_editor_absoluteY="254dp" />
 
             <Space
                 android:layout_width="wrap_content"

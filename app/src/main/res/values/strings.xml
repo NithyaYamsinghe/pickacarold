@@ -38,6 +38,8 @@
     <string name="skip_btn">Skip</string>
     <string name="next_btn">Next</string>
     <string name="let_get_started_btn">Lets get started</string>
+
+    <!-- Payment-->
     <string name="txtV1">One Time Payment</string>
     <string name="txtE1">Name On Card</string>
     <string name="txtE2">Card Number</string>
@@ -52,9 +54,18 @@
     <string name="txtV8">Length : </string>
     <string name="txtV9">23 km</string>
     <string name="txtV10">Amount : </string>
-    <string name="txtV11">Rs: 1500</string>
+    <string name="txtV11">Rs: 1500.00</string>
     <string name="btn1">Pay Now</string>
 
+    <!-- Journey-->
+    <string name="jnyTV1">Your Journey Details</string>
+    <string name="jnyTV2">23 km</string>
+    <string name="jnyTV3">Rs : 1500.00</string>
+    <string name="jnyTE1">Enter Your Journey Location</string>
+    <string name="jnyTE2">Enter Your Destination</string>
+    <string name="jnyTE3">Enter Your Coupon</string>
+    <string name="jnyTE4">Enter Number of Passengers</string>
+    <string name="jnybtn1">Pic Car</string>
 
 </resources>
 

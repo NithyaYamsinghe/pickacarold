@@ -116,7 +116,7 @@
         android:layout_height="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.78">
@@ -147,7 +147,7 @@
         </TableRow>
 
 
-        <TableRow android:id="@+id/destination_row" >
+        <TableRow android:id="@+id/destination_row">
 
             <TextView
                 android:id="@+id/destination_label"
@@ -253,6 +253,12 @@
         android:id="@+id/pay_now"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/colorAccent"
         android:text="@string/btn1"
         android:textColor="@color/colorPrimary"
@@ -261,5 +267,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.953" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
+        app:srcCompat="@drawable/axela_3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
