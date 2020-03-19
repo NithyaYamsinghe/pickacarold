@@ -164,62 +164,7 @@
     <string name="jdtxtV12">Amount : </string>
     <string name="jdtxtV13">Rs: 1500.00</string>
     <string name="jdbtn1">Rate</string>
-=======
-    <!-- Login Page -->
-    <string name="login_heading">Hello there, Welcome back</string>
-    <string name="login_subheading">Sign In to continue</string>
-    <string name="hint_username">Username</string>
-    <string name="hint_password">Password</string>
-    <string name="forget_password">Forget Password ?</string>
-    <string name="login_button">Sign In</string>
-    <string name="new_user">New user? Sign Up</string>
 
-
-    <!-- Registration Page -->
-    <string name="register_heading">Welcome,</string>
-    <string name="register_sub_heading">Sign up to start your journey</string>
-    <string name="hint_fullName">Full Name</string>
-    <string name="hint_userName">User Name</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_phoneNo">Phone Number</string>
-    <string name="hint_registerPassword">Password</string>
-    <string name="sign_up_button">Sign Up</string>
-    <string name="already_registered">Already have an account? Sign In</string>
-
-
-    <!-- Profile Page -->
-
-    <string name="user_name">Nithya Yamasinghe</string>
-    <string name="username">Nitheeromeshi</string>
-    <string name="telephoneNo">071-700-8566</string>
-    <string name="password">............</string>
-    <string name="email">nitheeromeshi@gmail.com</string>
-    <string name="bonus_points">123$</string>
-    <string name="bonus_points_text">Bonus points</string>
-    <string name="most_destinations_text">Most Visit</string>
-    <string name="most_destinations">34</string>
-    <string name="update_btn">Update</string>
-    <string name="delete_btn">Delete</string>
-
-
-    <!-- Dashboard strings -->
-    <string name="hotels">Coupon</string>
-    <string name="restaurants">Restaurants</string>
-    <string name="internet">WiFi</string>
-    <string name="banks">Banks</string>
-    <string name="airports">Airports</string>
-
-
-    <!-- Titles and the descriptions -->
-    <string name="featured_locations">All featured Cars</string>
-    <string name="featured_locations_descriptions">All  on demand cars in this season</string>
-    <string name="most_viewed_locations">Most viewed</string>
-    <string name="categories">Categories</string>
-    <string name="viewAll">View All</string>
-    <string name="search_text">Search</string>
-    <string name="mithsubishi_montero">Mithsubishi Montero</string>
-    <string name="lorem_ipsum">four seats, comfortable for long trips</string>
-  
 
 </resources>
 
