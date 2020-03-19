@@ -67,7 +67,7 @@
     <string name="jnyTE2">Enter Your Destination</string>
     <string name="jnyTE3">Enter Your Coupon</string>
     <string name="jnyTE4">Enter Number of Passengers</string>
-    <string name="jnybtn1">Pic Car</string>
+    <string name="jnybtn1">Pick Car</string>
 
     <!-- Payment History-->
     <string name="phTV1">Payment History Details</string>
