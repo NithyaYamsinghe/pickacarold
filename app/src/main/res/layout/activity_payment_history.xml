@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".User.PaymentHistory">
+
+    <LinearLayout
+        android:id="@+id/payment_history_header"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="391dp"
+            android:layout_height="66dp"
+            android:fontFamily="@font/whitney_bold"
+            android:padding="10dp"
+            android:text="@string/phTV1"
+            android:textAlignment="center"
+            android:textColor="@color/colorTint"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/trip"
+        android:layout_width="384dp"
+        android:layout_height="337dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657">
+
+        <TableRow android:id="@+id/ph_row1">
+
+            <TextView
+                android:id="@+id/location1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV2"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV3"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn1"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+
+        <TableRow android:id="@+id/ph_row2">
+
+            <TextView
+                android:id="@+id/location2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV4"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV5"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn2"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/ph_row3">
+
+            <TextView
+                android:id="@+id/location3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV6"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV7"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn3"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/ph_row4">
+
+            <TextView
+                android:id="@+id/location4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV8"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV9"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn4"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/ph_row5">
+
+            <TextView
+                android:id="@+id/location5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV10"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV11"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn5"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/ph_row6">
+
+            <TextView
+                android:id="@+id/location6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV12"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/phTV13"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="@string/phbtn6"
+                android:onClick="onClickDetails"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

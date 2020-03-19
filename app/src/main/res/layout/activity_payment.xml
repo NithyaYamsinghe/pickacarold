@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".User.Payment">
+
+    <LinearLayout
+        android:id="@+id/payment_header_layout"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/paymentHeader"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/whitney_bold"
+            android:text="@string/txtV1"
+            android:textAlignment="center"
+            android:textColor="@color/colorTint"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/payment_details"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_border"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24">
+
+        <EditText
+            android:id="@+id/card_name"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:hint="Name on Card"
+            android:inputType="textPersonName"
+            android:text="@string/txtE1"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/card_no"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:hint="Name on Card"
+            android:inputType="number"
+            android:text="@string/txtE2"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/exp_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:hint="Name on Card"
+            android:inputType="date"
+            android:text="@string/txtE3"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/ccv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:hint="Name on Card"
+            android:inputType="number"
+            android:text="@string/txt4"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/trip"
+        android:layout_width="269dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72">
+
+        <TableRow android:id="@+id/location_row">
+
+            <TextView
+                android:id="@+id/location_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV2"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV3"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:id="@+id/destination_row">
+
+            <TextView
+                android:id="@+id/destination_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV4"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/destination_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV5"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/passengers_row">
+
+            <TextView
+                android:id="@+id/passengers_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV6"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/passengers_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV7"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/length_row">>
+
+            <TextView
+                android:id="@+id/length_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV8"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/length_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV9"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/amount_row">>
+
+            <TextView
+                android:id="@+id/amount_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV10"
+                android:textColor="@color/colorTint"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/amount_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/whitney_bold"
+                android:text="@string/txtV11"
+                android:textColor="@color/colorTint"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/pay_now"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClickPayment"
+        android:text="@string/btn3"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004"
+        app:srcCompat="@drawable/axela_3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTint"
+        android:onClick="onClickUpdate"
+        android:text="@string/btn1"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTint"
+        android:text="@string/btn2"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -98,6 +98,128 @@
     <string name="mithsubishi_montero">Mithsubishi Montero</string>
     <string name="lorem_ipsum">four seats, comfortable for long trips</string>
 
+   <!-- Payment-->
+    <string name="txtV1">One Time Payment</string>
+    <string name="txtE1">Name On Card</string>
+    <string name="txtE2">Card Number</string>
+    <string name="txtE3">Exp Date</string>
+    <string name="txt4">CCV</string>
+    <string name="txtV2">Location : </string>
+    <string name="txtV3">Malabe</string>
+    <string name="txtV4">Destination : </string>
+    <string name="txtV5">Kandy</string>
+    <string name="txtV6">Passengers : </string>
+    <string name="txtV7">2</string>
+    <string name="txtV8">Length : </string>
+    <string name="txtV9">23 km</string>
+    <string name="txtV10">Amount : </string>
+    <string name="txtV11">Rs: 1500.00</string>
+    <string name="btn1">Update</string>
+    <string name="btn2">Delete</string>
+    <string name="btn3">Pay Now</string>
+
+    <!-- Journey-->
+    <string name="jnyTV1">Your Journey Details</string>
+    <string name="jnyTV2">23 km</string>
+    <string name="jnyTV3">Rs : 1500.00</string>
+    <string name="jnyTE1">Enter Your Journey Location</string>
+    <string name="jnyTE2">Enter Your Destination</string>
+    <string name="jnyTE3">Enter Your Coupon</string>
+    <string name="jnyTE4">Enter Number of Passengers</string>
+    <string name="jnybtn1">Pick Car</string>
+
+    <!-- Payment History-->
+    <string name="phTV1">Payment History Details</string>
+    <string name="phTV2">Kandy</string>
+    <string name="phTV3">RS : 1500.00</string>
+    <string name="phTV4">Baththaramulla</string>
+    <string name="phTV5">RS : 1000.00</string>
+    <string name="phTV6">Polonnaruwa</string>
+    <string name="phTV7">RS : 9000.00</string>
+    <string name="phTV8">Homagama</string>
+    <string name="phTV9">RS : 2000.00</string>
+    <string name="phTV10">Maharagama</string>
+    <string name="phTV11">RS : 2000.00</string>
+    <string name="phTV12">Horana</string>
+    <string name="phTV13">RS : 3000.00</string>
+    <string name="phbtn1">Details</string>
+    <string name="phbtn2">Details</string>
+    <string name="phbtn3">Details</string>
+    <string name="phbtn4">Details</string>
+    <string name="phbtn5">Details</string>
+    <string name="phbtn6">Details</string>
+
+    <!-- Journey Details-->
+    <string name="jdtxtV1">My Journey Details</string>
+    <string name="jdtxtV2">Date : </string>
+    <string name="jdtxtV3">02/03/2020</string>
+    <string name="jdtxtV4">Location : </string>
+    <string name="jdtxtV5">Malabe</string>
+    <string name="jdtxtV6">Destination : </string>
+    <string name="jdtxtV7">Kandy</string>
+    <string name="jdtxtV8">Passengers : </string>
+    <string name="jdtxtV9">2</string>
+    <string name="jdtxtV10">Distance : </string>
+    <string name="jdtxtV11">23 km</string>
+    <string name="jdtxtV12">Amount : </string>
+    <string name="jdtxtV13">Rs: 1500.00</string>
+    <string name="jdbtn1">Rate</string>
+=======
+    <!-- Login Page -->
+    <string name="login_heading">Hello there, Welcome back</string>
+    <string name="login_subheading">Sign In to continue</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login_button">Sign In</string>
+    <string name="new_user">New user? Sign Up</string>
+
+
+    <!-- Registration Page -->
+    <string name="register_heading">Welcome,</string>
+    <string name="register_sub_heading">Sign up to start your journey</string>
+    <string name="hint_fullName">Full Name</string>
+    <string name="hint_userName">User Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phoneNo">Phone Number</string>
+    <string name="hint_registerPassword">Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="already_registered">Already have an account? Sign In</string>
+
+
+    <!-- Profile Page -->
+
+    <string name="user_name">Nithya Yamasinghe</string>
+    <string name="username">Nitheeromeshi</string>
+    <string name="telephoneNo">071-700-8566</string>
+    <string name="password">............</string>
+    <string name="email">nitheeromeshi@gmail.com</string>
+    <string name="bonus_points">123$</string>
+    <string name="bonus_points_text">Bonus points</string>
+    <string name="most_destinations_text">Most Visit</string>
+    <string name="most_destinations">34</string>
+    <string name="update_btn">Update</string>
+    <string name="delete_btn">Delete</string>
+
+
+    <!-- Dashboard strings -->
+    <string name="hotels">Coupon</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="internet">WiFi</string>
+    <string name="banks">Banks</string>
+    <string name="airports">Airports</string>
+
+
+    <!-- Titles and the descriptions -->
+    <string name="featured_locations">All featured Cars</string>
+    <string name="featured_locations_descriptions">All  on demand cars in this season</string>
+    <string name="most_viewed_locations">Most viewed</string>
+    <string name="categories">Categories</string>
+    <string name="viewAll">View All</string>
+    <string name="search_text">Search</string>
+    <string name="mithsubishi_montero">Mithsubishi Montero</string>
+    <string name="lorem_ipsum">four seats, comfortable for long trips</string>
+  
 
 </resources>
 
