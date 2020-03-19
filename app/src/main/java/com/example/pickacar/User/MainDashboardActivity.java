@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.example.pickacar.Cars.SelectCar;
 import com.example.pickacar.HelperClasses.FeaturedAdapter;
 import com.example.pickacar.HelperClasses.FeaturedHelperClass;
 import com.example.pickacar.HelperClasses.MostViewedAdapter;
@@ -132,6 +133,10 @@ public class MainDashboardActivity extends AppCompatActivity implements Navigati
             case R.id.nav_profile:
                 Intent intent = new Intent(MainDashboardActivity.this, UserProfileActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.nav_car_list:
+                Intent intentCarSelect = new Intent(MainDashboardActivity.this, SelectCar.class);
+                startActivity(intentCarSelect);
                 break;
             case R.id.nav_share:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show(); // Add toast notification when click share

@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.pickacar.R;
 import com.example.pickacar.Reviews.ReviewsList;
+import com.example.pickacar.User.Trip;
 
 public class CarDescription extends AppCompatActivity {
 
@@ -19,6 +20,11 @@ public class CarDescription extends AppCompatActivity {
 
     public void showReviews(View view) {
         Intent intent = new Intent(getApplicationContext(), ReviewsList.class);
+        startActivity(intent);
+    }
+
+    public void showJourneyDetails(View view) {
+        Intent intent = new Intent(getApplicationContext(), Trip.class);
         startActivity(intent);
     }
 }
