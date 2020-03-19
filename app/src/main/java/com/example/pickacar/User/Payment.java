@@ -23,4 +23,9 @@ public class Payment extends AppCompatActivity {
         Intent i = new Intent(this, PaymentHistory.class);
         startActivity(i);
     }
+
+    public void onClickUpdate(View view) {
+        Intent intent = new Intent(this, Trip.class);
+        startActivity(intent);
+    }
 }

@@ -54,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276">
+        app:layout_constraintVertical_bias="0.24">
 
         <EditText
             android:id="@+id/card_name"
@@ -112,14 +112,14 @@
 
     <TableLayout
         android:id="@+id/trip"
-        android:layout_width="274dp"
-        android:layout_height="140dp"
+        android:layout_width="269dp"
+        android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.985"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78">
+        app:layout_constraintVertical_bias="0.72">
 
         <TableRow android:id="@+id/location_row">
 
@@ -260,14 +260,15 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:background="@color/colorAccent"
-        android:text="@string/btn1"
         android:onClick="onClickPayment"
+        android:text="@string/btn3"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintVertical_bias="0.984" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -275,10 +276,37 @@
         android:layout_height="141dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781"
+        app:layout_constraintVertical_bias="0.71000004"
         app:srcCompat="@drawable/axela_3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTint"
+        android:onClick="onClickUpdate"
+        android:text="@string/btn1"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTint"
+        android:text="@string/btn2"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

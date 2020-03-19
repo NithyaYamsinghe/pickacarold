@@ -55,7 +55,9 @@
     <string name="txtV9">23 km</string>
     <string name="txtV10">Amount : </string>
     <string name="txtV11">Rs: 1500.00</string>
-    <string name="btn1">Pay Now</string>
+    <string name="btn1">Update</string>
+    <string name="btn2">Delete</string>
+    <string name="btn3">Pay Now</string>
 
     <!-- Journey-->
     <string name="jnyTV1">Your Journey Details</string>
