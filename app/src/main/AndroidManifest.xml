@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".User.RegisterActivity"></activity>
+        <activity android:name=".Reviews.UserReviews"></activity>
+        <activity android:name=".Reviews.AddReview" />
+        <activity android:name=".Reviews.ReviewsList" />
+        <activity android:name=".User.RegisterActivity" />
         <activity android:name=".User.LoginActivity" />
         <activity android:name=".User.OnBoardingActivity" />
+        <activity android:name=".Cars.SelectCar" />
+        <activity android:name=".Cars.CarDescription" />
         <activity android:name=".User.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

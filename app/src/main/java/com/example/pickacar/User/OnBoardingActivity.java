@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.pickacar.Cars.Dashboard;
+import com.example.pickacar.Cars.SelectCar;
 import com.example.pickacar.HelperClasses.SliderAdapter;
 import com.example.pickacar.R;
 
@@ -55,8 +57,12 @@ public class OnBoardingActivity extends AppCompatActivity {
     public void skipButton(View view) {
         startActivity(new Intent(this, RegisterActivity.class));
         finish();
+    }
 
 
+    public void showDashboard(View view) {
+        Intent intent = new Intent(getApplicationContext(), SelectCar.class);
+        startActivity(intent);
     }
 
     // Function for next button
