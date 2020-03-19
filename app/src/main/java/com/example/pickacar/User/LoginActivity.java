@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
         callSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, MainDashboardActivity.class);
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 Pair[] pairs = new Pair[7];
 
                 pairs[0] = new Pair<View, String>(image, "logo_image");
