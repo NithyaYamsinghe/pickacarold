@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".User.Trip">
+
+
+    <LinearLayout
+        android:id="@+id/journey_header_layout"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/journey_header"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/whitney_bold"
+            android:text="@string/jnyTV1"
+            android:textAlignment="center"
+            android:textColor="@color/colorTint"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_border"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278">
+
+        <EditText
+            android:id="@+id/jny_location"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:inputType="textPersonName"
+            android:text="@string/jnyTE1"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/jny_destination"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:inputType="textPersonName"
+            android:text="@string/jnyTE2"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/jny_coupon"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:inputType="textPersonName"
+            android:text="@string/jnyTE3"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+
+        <EditText
+            android:id="@+id/jny_passengers"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTint"
+            android:ems="10"
+            android:fontFamily="@font/whitney_regular"
+            android:inputType="textPersonName"
+            android:text="@string/jnyTE4"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTint" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/jny_map"
+        android:layout_width="152dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/jny_money"
+        android:layout_width="143dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
+        app:srcCompat="@drawable/money" />
+
+    <TextView
+        android:id="@+id/jny_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/whitney_bold"
+        android:text="@string/jnyTV2"
+        android:textColor="@color/colorTint"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <TextView
+        android:id="@+id/jny_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/whitney_bold"
+        android:text="@string/jnyTV3"
+        android:textColor="@color/colorTint"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/pic_car"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/jnybtn1"
+        android:onClick="onClickTrip"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

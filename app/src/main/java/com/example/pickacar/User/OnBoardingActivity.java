@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.pickacar.Cars.Dashboard;
 import com.example.pickacar.Cars.SelectCar;
 import com.example.pickacar.HelperClasses.SliderAdapter;
 import com.example.pickacar.R;
