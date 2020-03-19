@@ -77,7 +77,7 @@
     <string name="phTV7">RS : 9000.00</string>
     <string name="phTV8">Homagama</string>
     <string name="phTV9">RS : 2000.00</string>
-    <string name="phTV10">maharagama</string>
+    <string name="phTV10">Maharagama</string>
     <string name="phTV11">RS : 2000.00</string>
     <string name="phTV12">Horana</string>
     <string name="phTV13">RS : 3000.00</string>
@@ -88,8 +88,20 @@
     <string name="phbtn5">Details</string>
     <string name="phbtn6">Details</string>
 
-
-
-
+    <!-- Journey Details-->
+    <string name="jdtxtV1">My Journey Details</string>
+    <string name="jdtxtV2">Date : </string>
+    <string name="jdtxtV3">02/03/2020</string>
+    <string name="jdtxtV4">Location : </string>
+    <string name="jdtxtV5">Malabe</string>
+    <string name="jdtxtV6">Destination : </string>
+    <string name="jdtxtV7">Kandy</string>
+    <string name="jdtxtV8">Passengers : </string>
+    <string name="jdtxtV9">2</string>
+    <string name="jdtxtV10">Distance : </string>
+    <string name="jdtxtV11">23 km</string>
+    <string name="jdtxtV12">Amount : </string>
+    <string name="jdtxtV13">Rs: 1500.00</string>
+    <string name="jdbtn1">Rate</string>
 </resources>
 
