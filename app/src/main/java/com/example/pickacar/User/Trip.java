@@ -8,19 +8,19 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.pickacar.R;
+import com.example.pickacar.User.Payment;
 
-public class Payment extends AppCompatActivity {
+public class Trip extends AppCompatActivity {
 
     Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment);
+        setContentView(R.layout.activity_trip);
     }
 
-    public void onClickPayment(View view) {
-        Intent i = new Intent(this, PaymentHistory.class);
+    public void onClickTrip(View view) {
+        Intent i = new Intent(this, Payment.class);
         startActivity(i);
     }
 }

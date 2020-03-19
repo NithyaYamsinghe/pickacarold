@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 import com.example.pickacar.HelperClasses.SliderAdapter;
 import com.example.pickacar.R;
-import com.example.pickacar.Trip;
 
 
 public class OnBoardingActivity extends AppCompatActivity {

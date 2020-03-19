@@ -67,5 +67,29 @@
     <string name="jnyTE4">Enter Number of Passengers</string>
     <string name="jnybtn1">Pic Car</string>
 
+    <!-- Payment History-->
+    <string name="phTV1">Payment History Details</string>
+    <string name="phTV2">Kandy</string>
+    <string name="phTV3">RS : 4000.00</string>
+    <string name="phTV4">Baththaramulla</string>
+    <string name="phTV5">RS : 1000.00</string>
+    <string name="phTV6">Polonnaruwa</string>
+    <string name="phTV7">RS : 9000.00</string>
+    <string name="phTV8">Homagama</string>
+    <string name="phTV9">RS : 2000.00</string>
+    <string name="phTV10">maharagama</string>
+    <string name="phTV11">RS : 2000.00</string>
+    <string name="phTV12">Horana</string>
+    <string name="phTV13">RS : 3000.00</string>
+    <string name="phbtn1">Details</string>
+    <string name="phbtn2">Details</string>
+    <string name="phbtn3">Details</string>
+    <string name="phbtn4">Details</string>
+    <string name="phbtn5">Details</string>
+    <string name="phbtn6">Details</string>
+
+
+
+
 </resources>
 

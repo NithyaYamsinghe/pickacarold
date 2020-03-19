@@ -1,14 +1,16 @@
-package com.example.pickacar;
+package com.example.pickacar.User;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Trip extends AppCompatActivity {
+import com.example.pickacar.R;
+
+public class PaymentHistory extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trip);
+        setContentView(R.layout.activity_payment_history);
     }
 }
