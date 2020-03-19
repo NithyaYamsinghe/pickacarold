@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.pickacar.Cars.SelectCar;
 import com.example.pickacar.HelperClasses.SliderAdapter;
 import com.example.pickacar.R;
 
@@ -27,6 +28,7 @@ public class OnBoardingActivity extends AppCompatActivity {
     Button letsGetStarted;
     Animation animation;
     int currentPosition;
+    Button callSignUp;
 
 
     @Override
@@ -49,14 +51,29 @@ public class OnBoardingActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(changeListener);
 
 
+        letsGetStarted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(OnBoardingActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
     }
 
     // Function for skip button
     public void skipButton(View view) {
-        startActivity(new Intent(this, Trip.class));
+//        startActivity(new Intent(this, RegisterActivity.class));
+        startActivity(new Intent(this, LoginActivity.class));
         finish();
+    }
 
 
+    public void showDashboard(View view) {
+        Intent intent = new Intent(getApplicationContext(), SelectCar.class);
+        startActivity(intent);
     }
 
     // Function for next button

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="8dp"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/pop_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nissan_nv200" />
+
+        <TextView
+            android:id="@+id/pop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/pop_image"
+            android:text="@string/mithsubishi_montero"
+            android:fontFamily="@font/whitney_bold"
+            android:textSize="20dp" />
+
+        <RatingBar
+            android:id="@+id/pop_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pop_text"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pop_image"
+            android:rating="4" />
+        
+        <TextView
+            android:id="@+id/pop_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pop_image"
+            android:layout_below="@id/pop_rating"
+            android:text="@string/lorem_ipsum"
+            android:paddingBottom="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

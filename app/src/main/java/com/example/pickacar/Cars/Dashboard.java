@@ -1,10 +1,12 @@
-package com.example.pickacar;
+package com.example.pickacar.Cars;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.pickacar.R;
 
 public class Dashboard extends AppCompatActivity {
 

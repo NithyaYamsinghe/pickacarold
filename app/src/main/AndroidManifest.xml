@@ -13,9 +13,14 @@
         <activity android:name=".User.PaymentHistory" />
         <activity android:name=".User.Trip" />
         <activity android:name=".User.Payment" />
+        <activity android:name=".User.DeleteUserProfileActivity"></activity>
+        <activity android:name=".User.MainDashboardActivity" />
+        <activity android:name=".User.UserProfileActivity" />
         <activity android:name=".User.RegisterActivity" />
         <activity android:name=".User.LoginActivity" />
         <activity android:name=".User.OnBoardingActivity" />
+        <activity android:name=".Cars.SelectCar" />
+        <activity android:name=".Cars.CarDescription" />
         <activity android:name=".User.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CarDescription"
-    android:background="@color/colorPrimary"
-    >
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Cars.CarDescription"
+    android:background="@color/colorPrimary">
 
     <LinearLayout
         android:id="@+id/content_holder"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="233dp"
         android:padding="20dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        >
+
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="232dp"
             app:srcCompat="@drawable/allion"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="-1dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="-1dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,6 +34,9 @@
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="294dp"
             tools:ignore="MissingConstraints"
+            android:padding="10dp"
+            android:background="@drawable/car_name_border"
+            android:layout_marginBottom="20dp"
             >
 
             <TextView
@@ -53,18 +56,124 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/d_pick_button"
-                android:layout_width="wrap_content"
+                android:id="@+id/review_button"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:background="@color/colorText"
-                android:fontFamily="@font/whitney_regular"
-                android:text="Pick" />
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/whitney_bold"
+                android:onClick="showReviews"
+                android:text="Show Reviews"
+                android:textSize="15dp" />
 
         </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Description:" />
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+            <TextView
+                android:id="@+id/title_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Brand:" />
+            <TextView
+                android:id="@+id/text_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="Mazda Z"/>
+            <TextView
+                android:id="@+id/title_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Year:" />
+            <TextView
+                android:id="@+id/text_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="2019"/>
+            <TextView
+                android:id="@+id/title_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Color:" />
+            <TextView
+                android:id="@+id/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="White and Gray"/>
+            <TextView
+                android:id="@+id/title_passangers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Passangers:" />
+            <TextView
+                android:id="@+id/text_passangers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="4"/>
+            <TextView
+                android:id="@+id/title_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTint"
+                android:text="Condition:" />
+
+            <TextView
+                android:id="@+id/text_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:layout_marginBottom="10dp"
+                android:text="Good"/>
+        </LinearLayout>
+
+        </ScrollView>
 
 
     </LinearLayout>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/done_icon"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
