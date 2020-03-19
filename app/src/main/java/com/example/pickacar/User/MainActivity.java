@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
 
                 Intent intent = new Intent(MainActivity.this, OnBoardingActivity.class);
-                  startActivity(intent);
-                    finish(); // finish the activity
+                startActivity(intent);
+                finish(); // finish the activity
 
 //                // To check whether the user open the app for the first time
 //               onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
